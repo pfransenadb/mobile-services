@@ -25,7 +25,7 @@ we talk about how to create an acquisition link, let's tear one apart and
 get some more detail on each of the parts:
 
 Raw Link:
-```html
+```
 https://c00.adobe.com/v3/c76645a7-7fb6-4c54-847c-b1a7dbedcc29/start?a_i_id=835196493&a_g_id=com.omniture.Beardcons&a_dd=i&ctxa.referrer.campaign.name=Blog+Campaign&ctxa.referrer.campaign.trackingcode=ib637rrr&ctxblog.topic=acquisition&ctxblog.author=pete
 ```
 
@@ -65,7 +65,7 @@ staying under 2048 characters, just to be safe for older browsers).
 
 Now we just build a url using our components (note: It):
 
-```html
+```
 https://c00.adobe.com/v3/c76645a7-7fb6-4c54-847c-b1a7dbedcc29/start?a_i_id=8135196493&a_g_id=com.omniture.Beardcons&a_dd=g&ctxa.referrer.campaign.trackingcode=testblogcampaign&ctxmy.company=adobe&ctxmy.name=pete
 ```
 
