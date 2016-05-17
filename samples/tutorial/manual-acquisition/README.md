@@ -59,6 +59,10 @@ new acquisition link:
 | Campaign Code | testblogcampaign |
 | Context Data | my.company = adobe, my.name = pete |
 
+Note: We've only included two custom context-data fields here.  This is not a
+limitation, you can add as much context data as you'd like (we'd recommend
+staying under 2048 characters, just to be safe for older browsers).
+
 Now we just build a url using our components (note: It):
 
 ```html
